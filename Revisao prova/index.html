@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="./index.css">
+</head>
+<body>
+    <input type="text" id="tarefa" placeholder="Tarefa">
+    <button id="add" onclick="cadastrar()">+</button>
+    <table style="background-color: grey;">
+        <thead>
+            <tr>
+                <th>Tarefa</th>
+            </tr>
+        </thead>
+        <tbody id="data">
+            <tr>
+                <td>Ir para o médico</td>
+                <td><button style="color: red;" onclick="apagarButton(this)">Apagar</button></td>
+            </tr>
+            <tr>
+                <td>Ir no cinema</td>
+                <td><button style="color: red;" onclick="apagarButton(this)">Apagar</button></td>
+            </tr>
+            <tr>
+                <td>Dormir</td>
+                <td><button style="color: red;" onclick="apagarButton(this)">Apagar</button></td>
+            </tr>
+        </tbody>
+    </table>
+</body>
+<script src="./index.js"></script>
+</html>
